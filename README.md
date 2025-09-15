@@ -12,24 +12,34 @@ A análise será feita com base em estatísticas de jogadores em diferentes comp
 ## Estrutura do Projeto
 projeto-valorant 
 
-┣ Stats-Valorant.xlsx # Planilha com todas as abas (Challengers, Game Changer, International)
+```
+/projeto-1-analise-valorant/
+├── 📄 README.md                    # Este arquivo com a documentação do projeto.
+│
+├── src/                            # Pasta contendo todos os códigos-fonte em Python.
+│   ├── Analise01
+│       ├── best_players_by_agent.py
+│       ├── best_players_by_agent.csv
+│   ├── Analise02
+│       ├── melhores_times_rating_kast.py
+│       ├── teams_best_players_rating_kast.csv
+│   ├── Analise03
+│       ├── gameplayStyleBalanceIndex.py
+│       ├── resultado_extremos_por_regiao.csv
+│   ├── Analise04
+│       ├── bests_player_region.py
+│       ├── Top_7_Jogadores_por_Regiao.xlsx
+│   ├── agentsDataHandler # Script da Análise 2.
+│   ├── conversorJsonCSV
+│   └── pStatisticsDataHandler
+│
+├── data/
+│   ├── Statistics-Valorant.xlsx
+│   ├── input_data
+│       ├── Statistics-Valorant.xlsx
+│   └── output_data
 
-┣ vct-challengers.csv # Dados convertidos (Arquivo .json do Kaggle → CSV)
-
-┣ vct-game-changer.csv # Dados convertidos (Arquivo .json do Kaggle → CSV)
-
-┣ vct-international.csv # Dados convertidos (Arquivo .json do Kaggle → CSV)
-
-┣ conversorJsonCSV.py # Script para converter JSON → CSV
-
-┣ Stats.py # Organização do dataset em dataframe para futuras manipulações e filtros de dados
-
-┗ pStatisticsDataHandler.py # Segmentação do conjunto de dados estatísticos "playerStatistics"
-
-┗ agentsDataHandler.py # Segmentação do conjunto de dados estatísticos "agent"
-
-┗ README.md # Documentação do projeto
-
+```
 ---
 
 ## Fontes de Dados
@@ -52,7 +62,6 @@ Os dados foram obtidos do Kaggle:
 2. Instale as dependências:
    ```bash
    pip install pandas openpyxl
-
 
 ---
 
