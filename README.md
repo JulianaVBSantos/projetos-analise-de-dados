@@ -14,7 +14,7 @@ projeto-valorant
 
 ```
 /projeto-1-analise-valorant/
-├── 📄 README.md                    # Este arquivo com a documentação do projeto.
+├── 📄 README.md                    # Este arquivo contém com a documentação do projeto.
 │
 ├── src/                            # Pasta contendo todos os códigos-fonte em Python.
 │   ├── Analise01
@@ -34,10 +34,20 @@ projeto-valorant
 │   └── pStatisticsDataHandler
 │
 ├── data/
-│   ├── Statistics-Valorant.xlsx
+│   ├── Statistics-Valorant.csv
 │   ├── input_data
-│       ├── Statistics-Valorant.xlsx
-│   └── output_data
+│       ├── agents
+│       ├── playerStatistics 
+│       ├── vct-challengers
+│       ├── vct-game-changer
+│       └── vct-international
+│   output_data/
+│       ├── playerStatistics_tabela
+│       ├── vct-challengers
+│       ├── vct-game-changer
+│       ├── VCT-Geral-Expanded
+│       └── vct-international
+
 
 ```
 ---
@@ -62,13 +72,3 @@ Os dados foram obtidos do Kaggle:
 2. Instale as dependências:
    ```bash
    pip install pandas openpyxl
-
----
-
-### Status do Projeto
-
---> Coleta e organização dos dados
-
---> Análises estatísticas e gráficos (em andamento)
-
--->️ Conclusões finais (a desenvolver)
