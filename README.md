@@ -53,13 +53,6 @@ Os dados foram obtidos do Kaggle:
    ```bash
    pip install pandas openpyxl
 
----
-
-### Equipe
-
-Juliana Vieira Barbosa dos Santos
-
-Bernardo Paiva da Monte
 
 ---
 
